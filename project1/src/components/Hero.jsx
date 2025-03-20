@@ -2,18 +2,20 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <main className="flex items-center justify-center p-10 h-[calc(100vh-72px)]">
+    <main className="flex items-center justify-center p-10 h-screen -mb-18">
       <div className="flex items-center justify-between w-full max-w-6xl">
         {/* Left Side: Text + Buttons + Shop Logo */}
         <div className="flex flex-col">
-          <h1 className="font-extrabold text-[90px] leading-[100px] max-w-[500px]">
-            YOUR FEET DESERVE THE BEST
-          </h1>
+        <h1 className="font-extrabold text-7xl leading-tight max-w-md">
+  YOUR FEET DESERVE THE BEST
+</h1>
 
-          <p className="font-semibold text-gray-500 max-w-[400px]">
-            YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES. 
-            YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
-          </p>
+
+<p className="font-semibold text-gray-500 max-w-sm">
+  YOUR FEET DESERVE THE BEST, AND WE’RE HERE TO HELP YOU WITH OUR SHOES.  
+  YOUR FEET DESERVE THE BEST, AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
+</p>
+
 
           {/* Buttons */}
           <div className="mt-4 flex gap-4">
