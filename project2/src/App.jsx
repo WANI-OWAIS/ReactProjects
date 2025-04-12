@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Components/Navbar";
+import ContactHeader from "./Components/ContactHeader";
+import ContactForm from "./Components/ContactForm";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Navbar />
+      <ContactHeader />
+      <ContactForm />
+    </>
+  );
+};
 
-export default App
+export default App;
